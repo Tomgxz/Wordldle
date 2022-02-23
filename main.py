@@ -58,7 +58,7 @@ class Result():
                 if letter[0] in self.ignorePos: continue
                 if self.letterIsYellow(*letter):
                     self.markLetterYellow(letter[0])
-        else:    
+        else:
             for letter in enumerate(self.guess):
                 if letter[0] in self.ignorePos: continue
                 if self.letterIsYellow(*letter):
